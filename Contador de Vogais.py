@@ -1,0 +1,6 @@
+print("-=-" * 10)
+print("Contador de Vogais")
+print("-=-" * 10)
+palavra = str(input("Digite uma palavra: "))
+somavogais = (palavra.count("a") + palavra.count("e") + palavra.count("i") + palavra.count("o") + palavra.count("u"))
+print(f'\nA palavra tem {somavogais} vogais ', end='')
